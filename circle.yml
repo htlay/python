@@ -3,5 +3,5 @@ machine:
       version: 2.7.5
 test:
    override:
-      python snakeGUI.py
+      python snakeGUI
 
