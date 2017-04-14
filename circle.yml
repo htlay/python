@@ -1,6 +1,9 @@
 machine:
    python:
       version: 2.7.5
+database:
+  override:
+    - mysql -u ubuntu circle_test < my-database-setup.sql
 test:
    override:
       python snakeGUI
